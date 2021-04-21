@@ -1,0 +1,20 @@
+#navbar{
+    /* mobile ekranlarda sutun seklinde ayarliyoruz */
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* tasma yapmasini engellemek icin overflow */
+    overflow: hidden; 
+    /* sutun halinde oldugundan yukseligi artirdik */
+    height: 90px;
+} 
+
+#training .items{
+    flex-direction: column;
+}
+#training .items .item{
+    width: 100%; 
+}
+.courses .course{
+    flex-direction: column;
+}
